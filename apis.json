@@ -1,0 +1,72 @@
+{
+    "name": "Storj",
+    "description": "Distributed, encrypted, and blazing fast object storage, where only you have access to your data.",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/18695-storj.jpg",
+    "tags": [
+        "have api",
+        "storage"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/storj\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Storj",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/18695-storj.jpg",
+            "humanURL": "https:\/\/storj.io",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/storj-openapi.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Blog",
+            "url": "http:\/\/blog.storj.io\/"
+        },
+        {
+            "type": "Blog RSS",
+            "url": "http:\/\/blog.storj.io\/rss"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/storj"
+        },
+        {
+            "type": "Email",
+            "url": "sales@storj.io"
+        },
+        {
+            "type": "Email",
+            "url": "hello@storj.io"
+        },
+        {
+            "type": "Email",
+            "url": "dmca@storj.io"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/Storj\/"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/storjproject"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/storj.io"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/storj.io"
+        }
+    ]
+}
