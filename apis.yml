@@ -1,0 +1,32 @@
+aid: storj
+name: Storj
+description: "Decentralized Open-Source Cloud Storage"
+url: https://docs.storj.io/dcs/
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Cloud Storage & File Sharing"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Cloud Storage And File Sharing
+  - Public APIs
+apis:
+  - name: Storj
+    description: "Decentralized Open-Source Cloud Storage"
+    humanURL: https://docs.storj.io/dcs/
+    baseURL: https://docs.storj.io/dcs/
+    tags:
+      - Cloud Storage And File Sharing
+    properties:
+      - type: Documentation
+        url: https://docs.storj.io/dcs/
+common:
+  - type: Website
+    url: https://docs.storj.io/dcs/
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
