@@ -23,6 +23,8 @@ apis:
       - type: Documentation
         url: https://docs.storj.io/dcs/
 common:
+  - type: DomainSecurity
+    url: security/storj-domain-security.yml
   - type: Website
     url: https://docs.storj.io/dcs/
   - type: PublicAPIsListing
