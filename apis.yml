@@ -33,13 +33,16 @@ x-category: "Cloud Storage & File Sharing"
 x-tier: 3
 x-tier-reason: bulk-registered-from-public-apis
 tags:
-  - Cloud Storage And File Sharing
   - Public APIs
+  - Storage
+  - Object Storage
+  - Cloud Storage
+  - S3 Compatible
+  - Decentralized Storage
 apis:
   - name: Storj
     description: "Decentralized Open-Source Cloud Storage"
     humanURL: https://docs.storj.io/dcs/
-    baseURL: https://docs.storj.io/dcs/
     tags:
       - Cloud Storage And File Sharing
     properties:
@@ -55,3 +58,5 @@ common:
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
+x-tags-removed:
+- Cloud Storage And File Sharing
