@@ -1,0 +1,89 @@
+edges:
+- partner_name: Amazon Web Services
+  partner: amazon-web-services
+  partner_match: shape-anchor
+  channel: provider-built
+  relationship: compatible
+  direction: provider-built
+  shape: aws-s3
+  type: docs
+  degree: declared-subset
+  evidence: https://storj.dev/dcs/api/s3/s3-compatibility
+  evidence_kind: own-docs
+  evidence_file: https://github.com/api-evangelist/storj/blob/main/evidence/compatibility/storj-aws-s3-1.md
+  quote: <!-- fetched 2026-10-13 from https://storj.dev/dcs/api/s3/s3-compatibility by sweep-shape-compat.py; text
+    extracted from the provider's own page -->
+  supported_operations:
+  - AbortMultipartUpload
+  - CompleteMultipartUpload
+  - CopyObject
+  - CreateBucket
+  - CreateMultipartUpload
+  - DeleteBucket
+  - DeleteBucketTagging
+  - DeleteObject
+  - DeleteObjectTagging
+  - DeleteObjects
+  - GetBucketLocation
+  - GetBucketNotificationConfiguration
+  - GetBucketPolicy
+  - GetBucketTagging
+  - GetBucketVersioning
+  - GetObject
+  - GetObjectAttributes
+  - GetObjectLegalHold
+  - GetObjectLockConfiguration
+  - GetObjectRetention
+  - GetObjectTagging
+  - HeadBucket
+  - HeadObject
+  - ListBuckets
+  - ListMultipartUploads
+  - ListObjectVersions
+  - ListObjects
+  - ListObjectsV2
+  - ListParts
+  - PutBucketNotificationConfiguration
+  - PutBucketTagging
+  - PutBucketVersioning
+  - PutObject
+  - PutObjectLegalHold
+  - PutObjectLockConfiguration
+  - PutObjectRetention
+  - PutObjectTagging
+  - UploadPart
+  - UploadPartCopy
+  unsupported_operations:
+  - DeleteBucketCors
+  - DeleteBucketEncryption
+  - DeleteBucketLifecycle
+  - DeleteBucketPolicy
+  - DeleteBucketReplication
+  - DeleteBucketWebsite
+  - DeletePublicAccessBlock
+  - GetBucketAcl
+  - GetBucketCors
+  - GetBucketEncryption
+  - GetBucketLifecycleConfiguration
+  - GetBucketLogging
+  - GetBucketReplication
+  - GetBucketWebsite
+  - GetObjectAcl
+  - GetPublicAccessBlock
+  - PutBucketAcl
+  - PutBucketCors
+  - PutBucketEncryption
+  - PutBucketLifecycleConfiguration
+  - PutBucketLogging
+  - PutBucketPolicy
+  - PutBucketReplication
+  - PutBucketWebsite
+  - PutObjectAcl
+  - PutPublicAccessBlock
+  - RestoreObject
+  - SelectObjectContent
+  supported_share: 0.582
+  detected_by: sweep-shape-compat.py
+  first_seen: '2026-10-13'
+generated: '2026-10-13'
+method: searched

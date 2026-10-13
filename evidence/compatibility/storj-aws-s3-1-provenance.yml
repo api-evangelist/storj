@@ -1,0 +1,12 @@
+fetched: '2026-10-13'
+method: fetched
+source: https://storj.dev/dcs/api/s3/s3-compatibility
+page: https://storj.dev/dcs/api/s3/s3-compatibility
+file: storj-aws-s3-1.md
+bytes: 18192
+sha256: d14140d346a20eb8a9e8c069fb1d7a228e50313af163fa026dc3b5c1fb373d1d
+anchor: amazon-web-services
+shape: aws-s3
+classification: declares-compatibility
+quote: S3 Compatibility - Storj Docs
+note: text extracted from the provider's own page (tags stripped), saved for evidence
