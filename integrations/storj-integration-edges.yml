@@ -11,8 +11,7 @@ edges:
   evidence: https://storj.dev/dcs/api/s3/s3-compatibility
   evidence_kind: own-docs
   evidence_file: https://github.com/api-evangelist/storj/blob/main/evidence/compatibility/storj-aws-s3-1.md
-  quote: <!-- fetched 2026-10-13 from https://storj.dev/dcs/api/s3/s3-compatibility by sweep-shape-compat.py; text
-    extracted from the provider's own page -->
+  quote: Storj Managed vs. Self-Managed Encryption S3 Compatibility Differences
   supported_operations:
   - AbortMultipartUpload
   - CompleteMultipartUpload
