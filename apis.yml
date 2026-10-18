@@ -43,7 +43,8 @@ apis:
   - name: Storj
     description: "Decentralized Open-Source Cloud Storage"
     humanURL: https://docs.storj.io/dcs/
-    tags:
+    tags: []
+    tags_raw:
       - Cloud Storage And File Sharing
     properties:
       - type: Documentation
